@@ -137,3 +137,13 @@ table {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon-btn {
+    @apply cursor-pointer hover:text-pink;
+  }
+
+  .nav-link {
+    @apply cursor-pointer hover:text-pink hover:border-b hover:border-solid hover:border-pink p-4 sm:p-0 sm:text-sm;
+  }
+}
