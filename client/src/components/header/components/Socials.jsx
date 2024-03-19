@@ -1,3 +1,5 @@
+import { FacebookIcon, ShopeeIcon, TiktokIcon } from "../../../assets/icons"
+
 export const Socials = ({ isOpen }) => {
     return (
         <ul className={`${!isOpen ? 'max-sm:hidden' : ''} p-4 flex items-center gap-4 sm:p-0 sm:py-2`}>

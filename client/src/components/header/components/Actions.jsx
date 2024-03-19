@@ -1,3 +1,9 @@
+import { useState } from "react"
+import { logoText } from "../../../assets/images"
+import { CartIcon, CloseIcon, MenuIcon, PersonOutlineIcon, SearchIcon } from "../../../assets/icons"
+import { Navbar } from "./Navbar"
+import { Socials } from "./Socials"
+
 export const Actions = () => {
     const [isOpen, setIsOpen] = useState(false)
 
