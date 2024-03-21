@@ -1,12 +1,12 @@
 import React from 'react'
-import { MainLayout } from '../layout'
+import Category from '../../components/category/Category'
+import { MainLayout } from '@pages/layout'
 
-const Home = () => {
+export const Home = () => {
     return <>
         <MainLayout>
             <div className='container mx-auto'>Home Page</div>
+            <Category />
         </MainLayout>
     </>
 }
-
-export default Home

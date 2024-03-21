@@ -1,15 +1,13 @@
-import React from 'react'
-import { Actions, Navbar, Socials } from './components'
-import { HeaderLayout } from './layout'
+import { Categories, Socials, Toolbar } from './ui'
 
-const Header = () => {
+export const Header = () => {
     return (
-        <HeaderLayout>
-            <Socials />
-            <Actions />
-            <Navbar />
-        </HeaderLayout>
+        <div className='border-b border-solid border-slate-200 p-4 sm:p-0'>
+            <div className="container mx-auto">
+                <Socials />
+                <Toolbar />
+                <Categories />
+            </div >
+        </div>
     )
 }
-
-export default Header

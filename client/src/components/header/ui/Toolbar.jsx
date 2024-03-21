@@ -1,10 +1,10 @@
 import { useState } from "react"
-import { logoText } from "../../../assets/images"
-import { CartIcon, CloseIcon, MenuIcon, PersonOutlineIcon, SearchIcon } from "../../../assets/icons"
-import { Navbar } from "./Navbar"
-import { Socials } from "./Socials"
+import { textlogo } from "@shared/ui/assets/images"
+import { CartIcon, CloseIcon, MenuIcon, PersonOutlineIcon, SearchIcon } from "@shared/ui/assets/icons"
+import { Categories } from "./Categories"
+import { Socials } from "."
 
-export const Actions = () => {
+export const Toolbar = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggleFn = () => {
@@ -14,7 +14,7 @@ export const Actions = () => {
     return (
         <div className="flex justify-between items-center sm:py-4 sm:pb-8">
             <div className="hidden sm:block">
-                <img src={logoText} alt="" />
+                <img src={textlogo} alt="" />
             </div>
             <div className='sm:hidden'>
                 {!isOpen
@@ -22,7 +22,7 @@ export const Actions = () => {
                     : <div className='absolute top-0 left-0 bottom-0 w-full bg-dim sm:hidden'>
                         <div className='bg-lightPink w-96 h-full p-4'>
                             <CloseIcon size={24} className='icon-btn' onClick={toggleFn} />
-                            <Navbar isOpen={isOpen} />
+                            <Categories isOpen={isOpen} />
                             <Socials isOpen={isOpen} />
                         </div>
                     </div>}

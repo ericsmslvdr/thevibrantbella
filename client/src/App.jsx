@@ -1,7 +1,7 @@
+import { NotFound } from "@components/not-found"
+import { Home } from "@pages/Home"
+import { MainLayout } from "@pages/layout"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { Home } from "./pages"
-import { MainLayout } from "./layout"
-import { NotFound } from "./components"
 
 function App() {
 

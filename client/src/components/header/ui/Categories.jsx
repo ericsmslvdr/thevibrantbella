@@ -1,4 +1,4 @@
-export const Navbar = ({ isOpen }) => {
+export const Categories = ({ isOpen }) => {
     const navLinks = [
         'Home',
         'Dress',

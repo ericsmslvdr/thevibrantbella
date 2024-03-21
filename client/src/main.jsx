@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { thevibrantbellaIcon } from './assets/images/index.js'
+import { shopIcon } from '@shared/ui/assets/images/index.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,4 +12,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 
 /* Change tab icon */
 const favicon = document.querySelector('link[rel="icon"]');
-favicon.href = thevibrantbellaIcon
+favicon.href = shopIcon

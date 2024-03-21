@@ -1,4 +1,4 @@
-import { FacebookIcon, ShopeeIcon, TiktokIcon } from "../../../assets/icons"
+import { FacebookIcon, ShopeeIcon, TiktokIcon } from "@shared/ui/assets/icons"
 
 export const Socials = ({ isOpen }) => {
     return (
