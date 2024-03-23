@@ -1,6 +1,5 @@
 export const Categories = ({ isOpen }) => {
     const navLinks = [
-        'Home',
         'Dress',
         'Tops',
         'Bottoms',

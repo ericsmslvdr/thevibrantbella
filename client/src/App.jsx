@@ -1,7 +1,7 @@
 import { NotFound } from "@components/not-found"
 import { Home } from "@pages/Home"
-import { MainLayout } from "@pages/layout"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+// import { MainLayout } from "./layout"
 
 function App() {
 
@@ -9,11 +9,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="*" element={
+        {/* <Route path="*" element={
           <MainLayout>
             <NotFound />
           </MainLayout>
-        }></Route>
+        }></Route> */}
       </Routes>
     </BrowserRouter>
   )

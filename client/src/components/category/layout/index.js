@@ -1,1 +1,0 @@
-export { CategoryLayout } from './CategoryLayout'

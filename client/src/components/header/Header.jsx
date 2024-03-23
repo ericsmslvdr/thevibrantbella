@@ -1,4 +1,6 @@
-import { Categories, Socials, Toolbar } from './ui'
+import { Categories } from "./components/Categories"
+import { Socials } from "./components/Socials"
+import { Toolbar } from "./components/Toolbar"
 
 export const Header = () => {
     return (

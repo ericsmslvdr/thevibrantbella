@@ -1,0 +1,1 @@
+export { CategoryShop } from './CategoryShop'
