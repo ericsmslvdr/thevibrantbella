@@ -1,6 +1,6 @@
-import { Categories } from './components/Categories'
-import { Socials } from './components/Socials'
-import { CloseIcon } from '@shared/ui/assets/icons'
+import { Categories } from './Categories'
+import { Socials } from './Socials'
+import { CloseIcon } from '@shared/assets/icons'
 
 export const SidebarPhone = ({ onClick }) => {
     return (

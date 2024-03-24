@@ -1,8 +1,8 @@
 import { useState } from "react"
-import { textlogo } from "@shared/ui/assets/images"
-import { CartIcon, CloseIcon, MenuIcon, PersonOutlineIcon, SearchIcon } from "@shared/ui/assets/icons"
+import { textlogo } from "@shared/assets/images"
+import { CartIcon, CloseIcon, MenuIcon, PersonOutlineIcon, SearchIcon } from "@shared/assets/icons"
 import { Categories } from "./Categories"
-import { SidebarPhone } from "../SidebarPhone"
+import { SidebarPhone } from "./SidebarPhone"
 
 export const Toolbar = () => {
     const [isOpen, setIsOpen] = useState(false)

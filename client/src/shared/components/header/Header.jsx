@@ -1,6 +1,6 @@
-import { Categories } from "./components/Categories"
-import { Socials } from "./components/Socials"
-import { Toolbar } from "./components/Toolbar"
+import { Categories } from "./Categories"
+import { Socials } from "./Socials"
+import { Toolbar } from "./Toolbar"
 
 export const Header = () => {
     return (

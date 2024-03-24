@@ -1,4 +1,4 @@
-import { NotFound } from "@components/not-found"
+import { NotFound } from "@shared/components/not-found"
 import { Home } from "@pages/Home"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 // import { MainLayout } from "./layout"
